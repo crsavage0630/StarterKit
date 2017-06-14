@@ -1,7 +1,7 @@
 export default function getBaseUrl(){
  // const inDevelopment = window.location.hostname === "localhost";
  // return inDevelopment ? "http://localhost:5001/":"/";
- return getQueryStringParameterByName('useMockApi') ? "http://localhost:5001/":"/";
+ return getQueryStringParameterByName('useMockApi') ? "http://localhost:5001/":"https://dry-harbor-32373.herokuapp.com/";
 }
 
 
